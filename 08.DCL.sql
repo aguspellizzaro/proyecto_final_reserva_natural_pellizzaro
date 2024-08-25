@@ -1,0 +1,38 @@
+CREATE USER usuario1AgustinaPellizzaro;
+CREATE USER usuario2AgustinaPellizzaro;
+
+GRANT SELECT ON horarios_apertura TO usuario1AgustinaPellizzaro;
+GRANT SELECT ON horarios_recorridos TO usuario1AgustinaPellizzaro;
+GRANT SELECT ON zonas_por_recorrido TO usuario1AgustinaPellizzaro;
+GRANT SELECT ON recorridos TO usuario1AgustinaPellizzaro;
+GRANT SELECT ON guias TO usuario1AgustinaPellizzaro;
+GRANT SELECT ON cuidadores_por_habitats TO usuario1AgustinaPellizzaro;
+GRANT SELECT ON cuidadores TO usuario1AgustinaPellizzaro;
+GRANT SELECT ON personas TO usuario1AgustinaPellizzaro;
+GRANT SELECT ON animales_por_habitats TO usuario1AgustinaPellizzaro;
+GRANT SELECT ON habitats_por_zonas TO usuario1AgustinaPellizzaro;
+GRANT SELECT ON zonas TO usuario1AgustinaPellizzaro;
+GRANT SELECT ON habitats TO usuario1AgustinaPellizzaro;
+GRANT SELECT ON animales TO usuario1AgustinaPellizzaro;
+GRANT SELECT ON especies TO usuario1AgustinaPellizzaro;
+GRANT SELECT ON sexos TO usuario1AgustinaPellizzaro;
+GRANT SELECT ON generos TO usuario1AgustinaPellizzaro;
+GRANT SELECT ON reserva TO usuario1AgustinaPellizzaro;
+
+GRANT SELECT, INSERT, UPDATE ON horarios_apertura TO usuario2AgustinaPellizzaro;
+GRANT SELECT, INSERT, UPDATE ON horarios_recorridos TO usuario2AgustinaPellizzaro;
+GRANT SELECT, INSERT, UPDATE ON zonas_por_recorrido TO usuario2AgustinaPellizzaro;
+GRANT SELECT, INSERT, UPDATE ON recorridos TO usuario2AgustinaPellizzaro;
+GRANT SELECT, INSERT, UPDATE ON guias TO usuario2AgustinaPellizzaro;
+GRANT SELECT, INSERT, UPDATE ON cuidadores_por_habitats TO usuario2AgustinaPellizzaro;
+GRANT SELECT, INSERT, UPDATE ON cuidadores TO usuario2AgustinaPellizzaro;
+GRANT SELECT, INSERT, UPDATE ON personas TO usuario2AgustinaPellizzaro;
+GRANT SELECT, INSERT, UPDATE ON animales_por_habitats TO usuario2AgustinaPellizzaro;
+GRANT SELECT, INSERT, UPDATE ON habitats_por_zonas TO usuario2AgustinaPellizzaro;
+GRANT SELECT, INSERT, UPDATE ON zonas TO usuario2AgustinaPellizzaro;
+GRANT SELECT, INSERT, UPDATE ON habitats TO usuario2AgustinaPellizzaro;
+GRANT SELECT, INSERT, UPDATE ON animales TO usuario2AgustinaPellizzaro;
+GRANT SELECT, INSERT, UPDATE ON especies TO usuario2AgustinaPellizzaro;
+GRANT SELECT, INSERT, UPDATE ON sexos TO usuario2AgustinaPellizzaro;
+GRANT SELECT, INSERT, UPDATE ON generos TO usuario2AgustinaPellizzaro;
+GRANT SELECT, INSERT, UPDATE ON reserva TO usuario2AgustinaPellizzaro;
